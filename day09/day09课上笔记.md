@@ -79,7 +79,7 @@ SQL(架构化查询语言):
  	2. 使用ORM
       	1. 把增删改查映射成编程语言中对象的增删改查
 
-![1560654113748](D:\Go\src\code.oldboy.com\studygolang\day09\assets\1560654113748.png)
+![1560654113748](D:/Go/src/code.oldboy.com/studygolang/day09/assets/1560654113748.png)
 
 
 
@@ -175,7 +175,7 @@ desc user;
 查看详细建表语句：
 
 ```sql
-show create table user\G
+show create table user/G
 ```
 
 ### 下载驱动
@@ -207,13 +207,13 @@ func main(){
 	// 前提是要注册对应数据库的驱动
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
-		fmt.Printf("open mysql failed, err:%v\n", err)
+		fmt.Printf("open mysql failed, err:%v/n", err)
 		return
 	}
 	// 尝试链接一下数据库，校验用户名密码是否正确...
 	err = db.Ping()
 	if err != nil {
-		fmt.Printf("connect MySQL failed, err:%v\n", err)
+		fmt.Printf("connect MySQL failed, err:%v/n", err)
 		return
 	}
 	fmt.Println("连接数据库成功！")

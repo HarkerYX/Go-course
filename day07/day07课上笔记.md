@@ -173,7 +173,7 @@ func TestSplit(t *testing.T) {
 	want := []string{"a", "b", "c"}  //期望得到的结果
 
 	if ok := reflect.DeepEqual(got, want); !ok {
-		t.Fatalf("期望得到:%v，实际得到：%v\n", want, got)
+		t.Fatalf("期望得到:%v，实际得到：%v/n", want, got)
 	}
         
 }
@@ -203,7 +203,7 @@ func TestSplit(t *testing.T) {
 		t.Run(name, func(t *testing.T) { // 使用t.Run()执行子测试
 			ret := Split(tc.str, tc.sep)
 			if !reflect.DeepEqual(ret, tc.want) {
-				t.Errorf("期望得到:%#v，实际得到：%#v\n", tc.want, ret)
+				t.Errorf("期望得到:%#v，实际得到：%#v/n", tc.want, ret)
 			}
 		})
 	}
@@ -268,7 +268,7 @@ Go语言实现HTTP客户端和服务端
 
 ## 前端 ：<https://www.cnblogs.com/liwenzhou/p/9959979.html>
 
-![1558864965001](.\assets\1558864965001.png)
+![1558864965001](./assets/1558864965001.png)
 
 ## 数据库
 

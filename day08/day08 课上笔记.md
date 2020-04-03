@@ -88,7 +88,7 @@ Teardown:测试之后做的一系列操作
 
 
 
-![1559469004434](D:\Go\src\code.oldboy.com\studygolang\day08\assets\1559469004434.png)
+![1559469004434](D:/Go/src/code.oldboy.com/studygolang/day08/assets/1559469004434.png)
 
 #### net/http包
 
@@ -125,11 +125,11 @@ Teardown:测试之后做的一系列操作
  	2. 所有获取用户输入的标签要有name属性
  	3. 必须要有submit按钮并且form表单要有action属性
 
-![1559459957424](.\assets\1559459957424.png)
+![1559459957424](./assets/1559459957424.png)
 
 
 
-![1559462388699](.\assets\1559462388699.png)
+![1559462388699](./assets/1559462388699.png)
 
 
 
@@ -162,12 +162,12 @@ type student struct {
 }
 
 func (s student) learn() student {
-	fmt.Printf("%s热爱学习！\n", s.name)
+	fmt.Printf("%s热爱学习！/n", s.name)
 	return s
 }
 
 func (s student) doHomework() student {
-	fmt.Printf("%s热爱交作业！\n", s.name)
+	fmt.Printf("%s热爱交作业！/n", s.name)
 	return s
 }
 

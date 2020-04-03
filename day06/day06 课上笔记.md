@@ -18,7 +18,7 @@
 
 线程：操作系统调度的最小单位
 
-协程：用户态的线程（Python\PHP）
+协程：用户态的线程（Python/PHP）
 
 ## goroutine
 

@@ -41,7 +41,7 @@
 
 return 的原理 和 defer执行时机
 
-![1555816943449](.\assets\1555816943449.png)
+![1555816943449](./assets/1555816943449.png)
 
 ### 包（package）
 
@@ -49,15 +49,15 @@ return 的原理 和 defer执行时机
 
 ### Go文件的代码结构
 
-![1555819073214](.\assets\1555819073214.png)
+![1555819073214](./assets/1555819073214.png)
 
 
 
 ### 包的初始化
 
-![åä¸­çinit(.\assets\init01.png)æ§è¡æ¶æº](https://www.liwenzhou.com/images/Go/package/init01.png)
+![åä¸­çinit(./assets/init01.png)æ§è¡æ¶æº](https://www.liwenzhou.com/images/Go/package/init01.png)
 
-![åä¹é´çinit(D:\Go\src\code.oldboy.com\studygolang\day04\assets\init02.png)æ§è¡é¡ºåº](https://www.liwenzhou.com/images/Go/package/init02.png)
+![åä¹é´çinit(D:/Go/src/code.oldboy.com/studygolang/day04/assets/init02.png)æ§è¡é¡ºåº](https://www.liwenzhou.com/images/Go/package/init02.png)
 
 ## Go语言标准包系列
 

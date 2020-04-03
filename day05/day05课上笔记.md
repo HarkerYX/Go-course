@@ -10,7 +10,7 @@
 
 是一个规范一个约定一堆方法签名的集合。
 
-```go\
+```go/
 
 type mover interface {	
 	move()
@@ -36,9 +36,9 @@ interface{}
 
 ### 指针接收者和值接收者实现接口的区别
 
-![1557626839489](.\assets\1557626839489.png)
+![1557626839489](./assets/1557626839489.png)
 
-![1557626978751](.\assets\1557626978751.png)
+![1557626978751](./assets/1557626978751.png)
 
 ## 文件操作
 
@@ -59,7 +59,7 @@ os.OpenFile()
 
 格式化的时间：2006-01-02 15:04:05.000
 
-![1557627682991](.\assets\1557627682991.png)
+![1557627682991](./assets/1557627682991.png)
 
 [博客地址](<https://www.liwenzhou.com/posts/Go/go_time/>)
 
@@ -83,7 +83,7 @@ os.OpenFile()
 
 接口值 由两部分组成， **动态类型**和**动态值**
 
-![æ¥å£å¼å¾è§£](D:\Go\src\code.oldboy.com\studygolang\day05\assets\interface.png)
+![æ¥å£å¼å¾è§£](D:/Go/src/code.oldboy.com/studygolang/day05/assets/interface.png)
 
 ## 类型断言
 
@@ -106,7 +106,7 @@ func main() {
 	// 如果猜对了，ok=true,value=对应类型的值
 	// 如果猜错了, ok=false,value=对应类型的零值
 	value, ok := x.(int)
-	fmt.Printf("ok:%t  value:%#v value type:%T\n", ok, value, value)
+	fmt.Printf("ok:%t  value:%#v value type:%T/n", ok, value, value)
 }
 ```
 

@@ -22,7 +22,7 @@ blog地址:[https://www.liwenzhou.com/categories/Golang/](https://www.liwenzhou.
 
 ## 配置GOPATH
 
-![1553400892781](.\assets\1553400892781.png)
+![1553400892781](assets\1553400892781.png)
 
 
 

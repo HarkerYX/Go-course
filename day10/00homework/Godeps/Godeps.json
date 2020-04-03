@@ -1,0 +1,22 @@
+{
+	"ImportPath": "code.oldboy.com/studygolang/day10/00homework",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.4.1-30-g877a977",
+			"Rev": "877a9775f06853f611fb2d4e817d92479242d1cd"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx",
+			"Comment": "v1.2.0-21-g38398a3",
+			"Rev": "38398a30ed8516ffda617a04c822de09df8a3ec5"
+		},
+		{
+			"ImportPath": "github.com/jmoiron/sqlx/reflectx",
+			"Comment": "v1.2.0-21-g38398a3",
+			"Rev": "38398a30ed8516ffda617a04c822de09df8a3ec5"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的个人中心</title>
+</head>
+<body>
+    <!-- <div>
+        <ul>
+          <li>姓名：{{.UserName}}</li>
+          <li>密码：{{.Password}}</li>
+          <li>年龄:{{.Age}}</li>
+        </ul>
+    </div> -->
+
+    <!-- {{/* Go模板中的注释 */}}
+
+    {{ $age := . }}
+    {{ $age.Age }}
+    <hr>
+    {{if gt .Age 17}}
+    <div>澳门首家线上赌场开业啦！</div>
+    {{else}}
+    <div>快乐成长！</div>
+    {{end}} -->
+
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>姓名</th>
+                <th>密码</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{range $index, $user := .}}
+            <tr>
+                <td>{{$index}}</td>
+                <td>{{$user.UserName}}</td>
+                <td>{{$user.Password}}</td>
+                <td>{{$user.Age}}</td>
+            </tr>
+            {{end}}
+        </tbody>
+    </table>
+
+</body>
+</html>

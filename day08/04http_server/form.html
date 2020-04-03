@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>获取用户输入</title>
+</head>
+<body>
+    <h1>欢迎注册小猿圈</h1>
+
+    <input type="date">
+    <input type="number">
+    <input type="email">
+
+    <hr>
+    <form action="http://127.0.0.1:8080/index" method="POST">
+     <div>
+        <label for="i1">用户名：</label>
+        <input id="i1" name="username" type="text" placeholder="沙河小王子">
+     </div>
+    <div>
+        <label>密&nbsp;&nbsp;&nbsp;码：
+            <input name="pwd" type="password">
+        </label>
+    </div>
+    <div>
+        <label>性别：</label>
+        <input name="gender" value="male" type="radio">男
+        <input name="gender" value="female" type="radio">女
+    </div>
+
+    <div>
+        <label>爱好：</label>
+        <input type="checkbox" value="basketball">篮球
+        <input type="checkbox" value="football">足球
+        <input type="checkbox" checked="checked" value="doublecolorball">双色球
+    </div>
+
+    <div><label>头像：</label>
+        <input type="file" name="avatar" accept="image/*">
+    </div>
+    <div>
+        <label >个性签名：</label>
+        <textarea name="info" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="s1" >地址</label>
+        <select name="addr" id="s1">
+            <option value="">---</option>
+            <option value="bj">北京</option>
+            <option value="sh">上海</option>
+            <option value="gz" selected>广州</option>
+            <option value="sz">深圳</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="提交">
+        <button type="submit">提交</button>
+
+        <input type="reset" value="重置">
+        <input type="button" value="普通按钮">
+    </div>
+    </form>
+
+    <hr>
+    <form action="https://www.sogou.com/web">
+        <input type="input" name="query">
+        <input type="submit" value="sogo一下">
+    </form>
+
+    
+</body>
+</html>
